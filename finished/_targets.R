@@ -1,5 +1,6 @@
 # Which diet grows chicks fastest? Finished: every bug fixed.
-source("packages.R")
+# Sys.setenv(TAR_PROJECT = "finished")
+source(here::here("finished/packages.R"))
 tar_source()
 
 tar_assign({

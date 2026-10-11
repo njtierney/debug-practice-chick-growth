@@ -1,5 +1,5 @@
 # Which diet grows chicks fastest?
-source("packages.R")
+source(here::here("starter/packages.R"))
 tar_source()
 
 tar_assign({
