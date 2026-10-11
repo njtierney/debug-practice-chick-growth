@@ -1,0 +1,35 @@
+---
+title: "Which diet grows chicks fastest?"
+format: html
+---
+
+```{r}
+#| label: libraries
+source("packages.R")
+```
+
+```{r}
+#| label: load-targets
+tar_load(
+  c(
+    diet_gain,
+    gg_weights,
+    gg_gain
+  )
+)
+```
+
+```{r}
+#| label: diet-gain
+diet_gain
+```
+
+```{r}
+#| label: weights
+gg_weights
+```
+
+```{r}
+#| label: gain
+gg_gain
+```

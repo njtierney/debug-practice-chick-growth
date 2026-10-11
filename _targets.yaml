@@ -1,0 +1,6 @@
+starter:
+  script: starter/_targets.R
+  store: starter/_targets
+finished:
+  script: finished/_targets.R
+  store: finished/_targets
