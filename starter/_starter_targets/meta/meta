@@ -1,0 +1,6 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+gain_per_diet|function|cfc45e1f889aa3a3
+tidy_chicks|function|3c4823b7d8027a96
+gain_per_chick|function|18e687d0b360b0cc
+chicks_path|stem|4e469bf342fd8b9f|171b551700944253|2c530c1562a7fbd1|-1412962566|starter/data-raw/chick-weights.csv|t20737.8900527276s|s6337b|6337|file|local|vector|||0||
+chick_gain|stem||d570c70f77d8a017|3ceef455bed786cd|-1687951201||t20738.0068141921s||0|rds|local|vector|||0.004||object 'chicks_tidy' not found
