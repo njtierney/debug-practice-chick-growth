@@ -1,0 +1,14 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+gain_per_diet|function|cfc45e1f889aa3a3
+tidy_chicks|function|1fba5505c59d6912
+gain_per_chick|function|18e687d0b360b0cc
+diets_path|stem|ad2380e6b7e35a56|7369689cb9ad4122|2c530c1562a7fbd1|1777619961|finished/data-raw/diets.csv|t20737.8900528036s|s52b|52|file|local|vector|||0||
+chicks_path|stem|4e469bf342fd8b9f|ea60698f8b491eb9|2c530c1562a7fbd1|-1412962566|finished/data-raw/chick-weights.csv|t20737.8900527893s|s6337b|6337|file|local|vector|||0||
+diets|stem|fea532fc3456f4f2|e9619f9a8008c0ca|7f7807ec2639652c|-1216935870||t20738.0558974673s|s313b|313|rds|local|vector|||0.087||
+chicks_raw|stem|bc9f15c1aef460fa|a7c2fd233c080ded|3fc3a8f3bd3fbe2c|1417893325||t20738.0558976961s|s1731b|1731|rds|local|vector|||0.015||
+chicks|stem|14c5628c185cab43|9ab7390175453a73|6d79e4e1202860c3|820939897||t20738.0558978098s|s1802b|1802|rds|local|vector|||0.005||
+chick_gain|stem|cbd1252b267fe2fa|d555b30877a28d30|c8ab8b8a2748f6f0|-1687951201||t20738.0558982021s|s703b|703|rds|local|vector|||0.03||
+gg_weights|stem|437c48da66f95620|66fa0c759d343479|98b8eb411e7fe183|1691216190||t20738.0558986496s|s114578b|114578|rds|local|vector|||0.01||
+diet_gain|stem|ea626cf136a1091b|839ab8b7c43b6d4f|88e860a97683f9e2|-1017620324||t20738.0558989495s|s250b|250|rds|local|vector|||0.021||
+gg_gain|stem|8e42f7ce969f0a5a|a5ab5207da5ee0c5|5558277daa3ae552|-1912306506||t20738.0558993478s|s131709b|131709|rds|local|vector|||0.002||
+report|stem|7edc8f1506c9ae60|2207234d2d46c7d1|4bb7a8514bffac7e|787668912|finished/report.html*finished/report.qmd|t20738.0559431455s|s23230b|23230|file|local|vector|||3.78||

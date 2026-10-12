@@ -4,8 +4,8 @@ source(here::here("finished/packages.R"))
 tar_source("finished/R")
 
 tar_assign({
-  chicks_path <- "data-raw/chick-weights.csv" |> tar_file()
-  diets_path <- "data-raw/diets.csv" |> tar_file()
+  chicks_path <- "finished/data-raw/chick-weights.csv" |> tar_file()
+  diets_path <- "finished/data-raw/diets.csv" |> tar_file()
 
   chicks_raw <- read_csv(chicks_path) |> clean_names() |> tar_target()
   diets <- read_csv(diets_path) |> clean_names() |> tar_target()
@@ -27,5 +27,5 @@ tar_assign({
       geom_boxplot()
   )
 
-  report <- tar_quarto(path = "report.qmd")
+  report <- tar_quarto(path = "finished/report.qmd")
 })

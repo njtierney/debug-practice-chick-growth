@@ -5,7 +5,7 @@ format: html
 
 ```{r}
 #| label: libraries
-source("packages.R")
+source(here::here("starter/packages.R"))
 ```
 
 ```{r}
